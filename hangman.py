@@ -26,7 +26,7 @@ while True:
         break
 
     attempt = input('\nType some letter: ').lower().strip()
-    if attempt in word:
+    if attempt in typed:
         print('Have you tried that letter.')
 
     else:
